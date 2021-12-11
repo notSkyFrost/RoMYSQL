@@ -1,9 +1,9 @@
 <?php
 $Script = filter_input(INPUT_POST, 'Script');
-$Host = "sql10.freesqldatabase.com";
-$UsuarioDB = "sql10457433";
-$ContraseñaDB = "x25TCcZ9dj";
-$NombreDB = "sql10457433";
+$Host = "";
+$UsuarioDB = "";
+$ContraseñaDB = "";
+$NombreDB = "";
 $solve = str_replace("'", "\'", $Script);
 
 $Conn = new mysqli($Host, $UsuarioDB, $ContraseñaDB, $NombreDB);
